@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
+gem 'dalli'
 gem 'lazy_susan'
 gem 'puma'
 gem 'rails', '3.2.13'
@@ -28,7 +29,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'sqlite3'
+  gem 'pg'
   gem 'factory_girl_rails'
   gem 'cane'
   gem 'reek'

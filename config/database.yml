@@ -1,9 +1,9 @@
 development:
-  adapter: sqlite3
-  database: db/monster_development
+  adapter: postgresql
+  encoding: utf8
+  database: monster_dev
   pool: 5
   timeout: 5000
-  username: monster
 
 test:
   adapter: sqlite3

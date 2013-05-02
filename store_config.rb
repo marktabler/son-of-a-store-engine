@@ -4,10 +4,10 @@ class StoreConfig
   end
 
   def self.production_url
-    "http://sample-store-demo.herokuapp.com"
+    "http://son-of-a-store-engine.herokuapp.com"
   end
 
   def self.email_address
-    "katrina@jumpstartlab.com"
+    "mark.tabler@livingsocial.com"
   end
 end
