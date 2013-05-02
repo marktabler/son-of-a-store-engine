@@ -84,6 +84,7 @@ In your app, open `store_config.rb`, and change the values of `production_url` a
   end
 ```
 
+
 Push the updated `store_config.rb` to GitHub, and Travis will automatically run a set of timed tests against the specified URL. Once complete, you'll see a line at the bottom of your Travis logs that looks like this:
 
 ```
