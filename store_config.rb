@@ -1,6 +1,6 @@
 class StoreConfig
   def self.development_url
-    "http://localhost:3000"
+    "http://localhost:5000"
   end
 
   def self.production_url
